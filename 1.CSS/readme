@@ -1,0 +1,27 @@
+🎬 Movie Recommender System
+This is a simple content-based movie recommendation system built using Streamlit, Pandas, and Scikit-learn. The app allows users to type in part of a movie title, see a list of matching movies, and get top similar movie recommendations based on user rating patterns.
+
+🔧 Features:
+Search for any movie by typing part of its name.
+
+Select from a list of all matching titles.
+
+View top 10+ similar movies based on cosine similarity.
+
+Built with a lightweight UI using Streamlit.
+
+Utilizes user rating data from ratings.csv and movies.csv.
+
+📁 Dataset:
+The system uses two CSV files:
+
+movies.csv — contains movie IDs and titles.
+
+ratings.csv — includes user ratings for each movie.
+
+
+
+*HOW TO RUN :* (safe method)
+  python -m streamlit run movies.py
+
+copy the above  command and paste it into the terminal to run it locally!!!
